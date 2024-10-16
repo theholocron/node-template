@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install --save-dev @theholocron/<lib>
+npm install --save-dev @theholocron/<name>
 ```
 
 ## Usage

@@ -1,3 +1,3 @@
-export function doSomething () {
+export function doSomething() {
 	return;
 }

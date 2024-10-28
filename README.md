@@ -13,7 +13,7 @@ npm install --save-dev @theholocron/node-template
 ```typescript
 import { doSomething, type SomethingOptions } from "@theholocron/node-template";
 
-function App (options: SomethingOptions) {
+function App(options: SomethingOptions) {
 	return doSomething(options);
 }
 ```

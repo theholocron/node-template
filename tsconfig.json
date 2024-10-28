@@ -1,3 +1,14 @@
 {
-  "extends": "@theholocron/tsconfig/node-next/tsconfig.json"
+  "display": "Node Template",
+  "extends": "@tsconfig/node-lts/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "paths": {
+      "@/package": ["./package.json"],
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["./node_modules"]
 }

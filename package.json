@@ -42,6 +42,6 @@
     "@theholocron/jest-config": "^3.4.4",
     "@theholocron/lint-staged-config": "^3.4.4",
     "@theholocron/prettier-config": "^3.4.4",
-    "@theholocron/tsconfig": "^2.0.0"
+    "@theholocron/tsconfig": "^3.4.4"
   }
 }

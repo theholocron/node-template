@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/theholocron/node-template/compare/v1.1.0...v1.2.0) (2024-10-29)
+
+
+### Features
+
+* ✨ remove changeset for release-please ([c433ab5](https://github.com/theholocron/node-template/commit/c433ab50969a141b476e0d84cda8f1d615001035))
+
 ## [1.1.0](https://github.com/theholocron/node-template/compare/1.0.0...v1.1.0) (2024-10-28)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/theholocron/node-template/compare/v1.2.0...v1.2.1) (2024-11-08)
+
+
+### Bug Fixes
+
+* add in tests ([869c1b7](https://github.com/theholocron/node-template/commit/869c1b737ea736de9b3dfd9eaf9c183eee49c5a8))
+
 ## [1.2.0](https://github.com/theholocron/node-template/compare/v1.1.0...v1.2.0) (2024-10-29)
 
 

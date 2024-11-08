@@ -1,54 +1,37 @@
 {
   "name": "@theholocron/node-template",
+  "version": "1.2.1",
   "description": "<description>",
   "homepage": "https://github.com/theholocron/node-template#readme",
+  "bugs": "https://github.com/theholocron/node-template/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theholocron/node-template.git"
+  },
+  "license": "GPL-3.0",
   "author": "Newton Koumantzelis",
-  "main": "dist/node-template.cjs.js",
-  "module": "dist/node-template.es.js",
-  "types": "dist/index.d.ts",
+  "type": "module",
   "exports": {
     ".": {
       "import": "./dist/node-template.es.js",
       "require": "./dist/node-template.cjs.js"
     }
   },
+  "main": "dist/node-template.cjs.js",
+  "module": "dist/node-template.es.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/*"
   ],
-  "type": "module",
-  "version": "1.2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/theholocron/node-template.git"
-  },
-  "bugs": "https://github.com/theholocron/node-template/issues",
-  "releases": "https://github.com/theholocron/node-template/releases",
-  "wiki": "https://github.com/theholocron/node-template/wiki",
-  "license": "GPL-3.0",
-  "packageManager": "npm@9.5.0",
-  "bundlewatch": {
-    "files": [
-      {
-        "path": "./dist/**/*.js",
-        "maxSize": "100 kB"
-      }
-    ]
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
     "build:storybook": "storybook build",
+    "dev": "vite",
     "lint": "docker run -e LOG_LEVEL=DEBUG -e RUN_LOCAL=true -v .:/tmp/lint --rm ghcr.io/super-linter/super-linter:latest",
+    "prepare": "husky",
     "preview": "vite preview",
     "start": "",
     "test": "vitest"
-  },
-  "engines": {
-    "node": ">=23",
-    "npm": ">=10"
   },
   "devDependencies": {
     "@theholocron/commitlint-config": "^3.4.4",
@@ -60,7 +43,27 @@
     "@theholocron/stylelint-config": "^3.4.4",
     "@theholocron/tsconfig": "^3.4.4",
     "@tsconfig/node-lts": "^20.1.3",
+    "@vitest/coverage-v8": "^2.1.4",
     "alexjs": "^1.0.0",
-    "vite": "^5.4.9"
-  }
+    "vite": "^5.4.9",
+    "vitest": "^2.1.4"
+  },
+  "packageManager": "npm@9.5.0",
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bundlewatch": {
+    "files": [
+      {
+        "path": "./dist/**/*.js",
+        "maxSize": "100 kB"
+      }
+    ]
+  },
+  "releases": "https://github.com/theholocron/node-template/releases",
+  "wiki": "https://github.com/theholocron/node-template/wiki"
 }

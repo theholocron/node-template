@@ -1,14 +1,11 @@
-name: Audit
-
-# @TODO: add in more things like:
-# - [ ] dead css checks
+name: Test
 
 on: # yamllint disable-line rule:truthy
   - push
 
 jobs:
-  bundle-size:
-    name: Audit the bundle size
+  unit:
+    name: Run tests and collect coverage
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,8 +22,10 @@ jobs:
       - run: npm ci
         name: Install dependencies
 
-      - uses: jackyef/bundlewatch-gh-action@0.3.0
-        name: Analyze using BundleWatch
+      - run: npm test -- --coverage
+        name: Run tests with coverage
+
+      - uses: codecov/codecov-action@v4
+        name: Upload results to Codecov
         with:
-          build-script: npm run build
-          bundlewatch-github-token: ${{ secrets.BUNDLEWATCH_GITHUB_TOKEN }}
+          token: ${{ secrets.CODECOV_TOKEN }}

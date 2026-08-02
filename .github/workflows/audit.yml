@@ -1,33 +1,14 @@
 name: Audit
 
-# @TODO: add in more things like:
-# - [ ] dead css checks
-
 on: # yamllint disable-line rule:truthy
-  - push
+  push:
+    branches: [main, alpha]
+  pull_request:
+
+permissions:
+  contents: read
 
 jobs:
-  bundle-size:
-    name: Audit the bundle size
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        name: Checkout repository
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: actions/setup-node@v4
-        name: Setup Node.js
-        with:
-          cache: npm
-          node-version: 22.x
-
-      - run: npm ci
-        name: Install dependencies
-
-      - uses: jackyef/bundlewatch-gh-action@0.3.0
-        name: Analyze using BundleWatch
-        with:
-          build-script: npm run build
-          bundlewatch-github-token: ${{ secrets.BUNDLEWATCH_GITHUB_TOKEN }}
+  audit:
+    uses: theholocron/.github/.github/workflows/audit.yml@main
+    secrets: inherit

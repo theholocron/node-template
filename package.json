@@ -82,6 +82,11 @@
     "main": "./dist/index.mjs",
     "types": "./dist/index.d.mts"
   },
+  "pnpm": {
+    "overrides": {
+      "@commitlint/config-conventional>conventional-changelog-conventionalcommits": "7"
+    }
+  },
   "releases": "https://github.com/theholocron/node-template/releases",
   "wiki": "https://github.com/theholocron/node-template/wiki"
 }

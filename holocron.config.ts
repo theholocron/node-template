@@ -33,6 +33,7 @@ export default defineConfig({
 		...providers,
 		secrets: "github",
 	},
+	docs: { build: "workflow", https: true },
 	agent: "claude",
 	skills: ["git-safety", "pr-workflow", "commit-standards", "security-review"],
 });

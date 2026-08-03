@@ -4,7 +4,7 @@ packages:
 # Shared dep versions for this repo.
 catalog:
   '@commitlint/cli': ^21.2.1
-  '@eslint/js': ^10.8.0
+  '@eslint/js': ^10.0.0
   '@semantic-release/changelog': ^7.0.0
   '@semantic-release/exec': ^7.1.0
   '@semantic-release/git': ^11.0.1

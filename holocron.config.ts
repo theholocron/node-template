@@ -3,17 +3,18 @@ import { node } from "@theholocron/holocron-config";
 
 const { workflows, providers } = node();
 export default defineConfig({
-	description: "<description>",
-	homepage: "<homepage>",
+	description: "Node.js library starter template for @theholocron repos.",
+	homepage: "https://docs.theholocron.dev/node-template/",
 	repo: {
-		name: "theholocron/<name>",
+		name: "theholocron/node-template",
 		teams: [{ slug: "gatekeepers", permission: "maintain" }],
+		topics: ["nodejs", "template", "typescript", "library"],
+		...node().repo,
 		protection: "balanced",
-		topics: [],
 		properties: {
-			lifecycle: "active",
+			...node().repo.properties,
+			runtime_environment: "node",
 			open_source: true,
-			runtime_environment: "<runtime_environment>",
 			uses_external_packages: false,
 		},
 	},
@@ -23,7 +24,7 @@ export default defineConfig({
 		{ name: "release", with: { "run-build": true } },
 		{
 			name: "deploy-docs",
-			with: { name: "clients" },
+			with: { name: "node-template" },
 			paths: ["docs/**"],
 		},
 	],
@@ -32,5 +33,5 @@ export default defineConfig({
 		secrets: "github",
 	},
 	agent: "claude",
-	skills: ["git-safety", "pr-workflow", "commit-standards", "security-review", "holocron-skill-client"],
+	skills: ["git-safety", "pr-workflow", "commit-standards", "security-review"],
 });

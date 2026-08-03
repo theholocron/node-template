@@ -65,14 +65,6 @@
       }
     }
   },
-  "bundlewatch": {
-    "files": [
-      {
-        "path": "./dist/**/*.mjs",
-        "maxSize": "100 kB"
-      }
-    ]
-  },
   "releases": "https://github.com/theholocron/node-template/releases",
   "wiki": "https://github.com/theholocron/node-template/wiki"
 }

@@ -1,7 +1,7 @@
 import { defineConfig } from "@theholocron/cli";
 import { node } from "@theholocron/holocron-config";
 
-const { workflows, providers } = node();
+const { repo, workflows, providers } = node();
 export default defineConfig({
 	description: "Node.js library starter template.",
 	homepage: "https://docs.theholocron.dev/node-template/",
@@ -9,10 +9,10 @@ export default defineConfig({
 		name: "theholocron/node-template",
 		teams: [{ slug: "gatekeepers", permission: "maintain" }],
 		topics: ["nodejs", "template", "typescript", "library"],
-		...node().repo,
+		...repo,
 		protection: "balanced",
 		properties: {
-			...node().repo.properties,
+			...repo.properties,
 			runtime_environment: "node",
 			open_source: true,
 			uses_external_packages: false,

@@ -1,3 +1,9 @@
+# AUTO-GENERATED — do not edit directly.
+# Source:  theholocron/holocron · packages/cli/src/commands/setup-workflows.ts
+# Synced:  2026-07-22T15:51:38.856Z
+# Tool:    holocron setup
+# Changes: run `holocron setup` to regenerate.
+
 name: Lint
 
 on: # yamllint disable-line rule:truthy
@@ -18,3 +24,5 @@ jobs:
     name: Lint
     uses: theholocron/.github/.github/workflows/lint.yml@main
     secrets: inherit
+    with:
+      enable-auto-commit: true

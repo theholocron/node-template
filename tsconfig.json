@@ -1,6 +1,6 @@
 {
   "display": "Node Template",
-  "extends": "@tsconfig/node-lts/tsconfig.json",
+  "extends": "@theholocron/tsconfig/node-lts",
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist",
@@ -9,6 +9,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["**/*.ts"],
-  "exclude": ["./node_modules"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }

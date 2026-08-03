@@ -1,4 +1,4 @@
-name: Test
+name: Typecheck
 
 on: # yamllint disable-line rule:truthy
   push:
@@ -6,15 +6,14 @@ on: # yamllint disable-line rule:truthy
   pull_request:
 
 concurrency:
-  group: test-${{ github.ref }}
+  group: typecheck-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
   contents: read
-  id-token: write
 
 jobs:
-  test:
-    name: Test
-    uses: theholocron/.github/.github/workflows/test.yml@main
+  typecheck:
+    name: Typecheck
+    uses: theholocron/.github/.github/workflows/typecheck.yml@main
     secrets: inherit

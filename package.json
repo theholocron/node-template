@@ -25,6 +25,8 @@
   "scripts": {
     "build": "tsdown",
     "lint": "eslint .",
+    "prepare": "husky",
+    "release": "semantic-release",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit"
@@ -39,6 +41,7 @@
     "@theholocron/semantic-release-config": "catalog:configs",
     "@theholocron/cli": "catalog:holocron",
     "@theholocron/commitlint-config": "catalog:configs",
+    "@theholocron/lint-staged-config": "catalog:configs",
     "@theholocron/eslint-config": "catalog:configs",
     "@theholocron/holocron-config": "catalog:configs",
     "@theholocron/prettier-config": "catalog:configs",
@@ -50,6 +53,9 @@
     "eslint": "catalog:",
     "conventional-changelog-conventionalcommits": "catalog:",
     "globals": "catalog:",
+    "husky": "catalog:",
+    "knip": "catalog:",
+    "lint-staged": "catalog:",
     "prettier": "catalog:",
     "semantic-release": "catalog:",
     "tsdown": "catalog:",

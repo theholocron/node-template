@@ -2,8 +2,7 @@
 
 <!-- holocron:description -->
 
-A Node template.
-
+A modern NodeJS template with pre-configured tools, best practices, and CI/CD setup for rapid project development.
 <!-- /holocron:description -->
 
 ## Installation

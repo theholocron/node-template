@@ -53,6 +53,7 @@
     "conventional-changelog-conventionalcommits": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-n": "catalog:",
+    "eslint-plugin-simple-import-sort": "catalog:",
     "globals": "catalog:",
     "husky": "catalog:",
     "knip": "catalog:",
@@ -62,6 +63,7 @@
     "sort-package-json": "catalog:",
     "tsdown": "catalog:",
     "typescript": "catalog:",
+    "typescript-eslint": "catalog:",
     "vitest": "catalog:"
   },
   "packageManager": "pnpm@10.33.0",

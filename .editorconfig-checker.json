@@ -9,9 +9,7 @@
   "Exclude": [
     "(^|.+/)LICENSE$",
     "^public/.*",
-    "^packages/cli/src/commands/plugin-create/templates/.*",
-    "^\\.notes/.*\\.spec\\.md$",
-    "^packages/holocron-docs/content/.*\\.md$"
+    "^\\.notes/.*\\.spec\\.md$"
   ],
   "AllowedContentTypes": [],
   "PassedFiles": [],

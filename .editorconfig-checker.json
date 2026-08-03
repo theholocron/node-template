@@ -9,7 +9,7 @@
   "Exclude": [
     "(^|.+/)LICENSE$",
     "^public/.*",
-    "^\\.notes/.*\\.spec\\.md$"
+    "\\.mdx$"
   ],
   "AllowedContentTypes": [],
   "PassedFiles": [],

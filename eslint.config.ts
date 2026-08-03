@@ -1,7 +1,17 @@
-import holocron from "@theholocron/eslint-config/eslint.config.js";
+import { library } from "@theholocron/eslint-config/bundles/library";
+import type { Linter } from "eslint";
 
-/**
- * @see https://eslint.org/docs/latest/use/configure/
- * @type {import("eslint").Linter.Config}
- */
-export default [...holocron];
+const config = [
+	...library(),
+	{
+		rules: {
+			// src/ compiles to dist/ via tsdown; files[] lists dist/ so every
+			// relative src/ import is flagged as unpublished. False positive
+			// for the TypeScript src→dist build model.
+			"n/no-unpublished-import": "off",
+		},
+	},
+	{ ignores: ["dist/**", "coverage/**"] },
+] satisfies Linter.Config[];
+
+export default config;

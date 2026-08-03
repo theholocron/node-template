@@ -3,7 +3,7 @@ import { node } from "@theholocron/holocron-config";
 
 const { repo, workflows, providers } = node();
 export default defineConfig({
-	description: "Node.js library starter template.",
+	description: "A modern NodeJS template with pre-configured tools, best practices, and CI/CD setup for rapid project development.",
 	homepage: "https://docs.theholocron.dev/node-template/",
 	repo: {
 		name: "theholocron/node-template",

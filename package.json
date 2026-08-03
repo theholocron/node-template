@@ -1,8 +1,8 @@
 {
   "name": "@theholocron/node-template",
   "version": "1.2.1",
-  "description": "<description>",
-  "homepage": "<homepage>",
+  "description": "A modern NodeJS template with pre-configured tools, best practices, and CI/CD setup for rapid project development.",
+  "homepage": "https://docs.theholocron.dev/node-template/",
   "bugs": "https://github.com/theholocron/node-template/issues",
   "repository": {
     "type": "git",

@@ -38,26 +38,28 @@
     "@semantic-release/exec": "catalog:",
     "@semantic-release/git": "catalog:",
     "@semantic-release/github": "catalog:",
-    "@theholocron/semantic-release-config": "catalog:configs",
     "@theholocron/cli": "catalog:holocron",
     "@theholocron/commitlint-config": "catalog:configs",
-    "@theholocron/lint-staged-config": "catalog:configs",
     "@theholocron/eslint-config": "catalog:configs",
     "@theholocron/holocron-config": "catalog:configs",
+    "@theholocron/lint-staged-config": "catalog:configs",
     "@theholocron/prettier-config": "catalog:configs",
+    "@theholocron/semantic-release-config": "catalog:configs",
     "@theholocron/tsconfig": "catalog:configs",
     "@theholocron/tsdown-config": "catalog:configs",
     "@theholocron/vitest-config": "catalog:configs",
     "@types/node": "catalog:",
     "@vitest/coverage-v8": "catalog:",
-    "eslint": "catalog:",
     "conventional-changelog-conventionalcommits": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-n": "catalog:",
     "globals": "catalog:",
     "husky": "catalog:",
     "knip": "catalog:",
     "lint-staged": "catalog:",
     "prettier": "catalog:",
     "semantic-release": "catalog:",
+    "sort-package-json": "catalog:",
     "tsdown": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:"
@@ -68,15 +70,15 @@
   },
   "publishConfig": {
     "access": "public",
-    "main": "./dist/index.mjs",
-    "types": "./dist/index.d.mts",
     "exports": {
       ".": {
         "types": "./dist/index.d.mts",
         "import": "./dist/index.mjs",
         "default": "./dist/index.mjs"
       }
-    }
+    },
+    "main": "./dist/index.mjs",
+    "types": "./dist/index.d.mts"
   },
   "releases": "https://github.com/theholocron/node-template/releases",
   "wiki": "https://github.com/theholocron/node-template/wiki"

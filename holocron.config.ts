@@ -25,7 +25,7 @@ export default defineConfig({
 		{ name: "release", with: { "run-build": true } },
 		{
 			name: "deploy-docs",
-			with: { name: "node-template" },
+			with: { name: "node-template", "use-turbo": false },
 			paths: ["docs/**"],
 		},
 	],

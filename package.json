@@ -32,6 +32,11 @@
   "devDependencies": {
     "@commitlint/cli": "catalog:",
     "@eslint/js": "catalog:",
+    "@semantic-release/changelog": "catalog:",
+    "@semantic-release/exec": "catalog:",
+    "@semantic-release/git": "catalog:",
+    "@semantic-release/github": "catalog:",
+    "@theholocron/semantic-release-config": "catalog:configs",
     "@theholocron/cli": "catalog:holocron",
     "@theholocron/commitlint-config": "catalog:configs",
     "@theholocron/eslint-config": "catalog:configs",
@@ -43,8 +48,10 @@
     "@types/node": "catalog:",
     "@vitest/coverage-v8": "catalog:",
     "eslint": "catalog:",
+    "conventional-changelog-conventionalcommits": "catalog:",
     "globals": "catalog:",
     "prettier": "catalog:",
+    "semantic-release": "catalog:",
     "tsdown": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:"

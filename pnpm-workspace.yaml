@@ -2,11 +2,17 @@
 catalog:
   '@commitlint/cli': ^21.0.0
   '@eslint/js': ^10.0.0
+  '@semantic-release/changelog': ^7.0.0
+  '@semantic-release/exec': ^7.1.0
+  '@semantic-release/git': ^11.0.1
+  '@semantic-release/github': ^12.0.9
   '@types/node': ^22.0.0
   '@vitest/coverage-v8': ^4.0.0
+  conventional-changelog-conventionalcommits: ^10.2.1
   eslint: ^10.0.0
   globals: ^17.0.0
   prettier: ^3.6.2
+  semantic-release: ^25.0.8
   tsdown: ^0.12.0
   typescript: ^5.8.3
   vitest: ^4.0.0
@@ -15,6 +21,7 @@ catalog:
 catalogs:
   configs:
     '@theholocron/commitlint-config': ^7.8.1
+    '@theholocron/semantic-release-config': ^7.8.1
     '@theholocron/eslint-config': ^7.8.1
     '@theholocron/holocron-config': ^7.8.1
     '@theholocron/prettier-config': ^7.8.1

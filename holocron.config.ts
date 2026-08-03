@@ -1,13 +1,13 @@
 import { defineConfig } from "@theholocron/cli";
 import { node } from "@theholocron/holocron-config";
 
-const { repo, workflows, providers } = node();
+const { workflows, providers } = node();
 export default defineConfig({
 	description: "<description>",
 	homepage: "<homepage>",
 	repo: {
 		name: "theholocron/<name>",
-		teams: [{ "slug": "gatekeepers", "permission": "maintain" }],
+		teams: [{ slug: "gatekeepers", permission: "maintain" }],
 		protection: "balanced",
 		topics: [],
 		properties: {
@@ -32,11 +32,5 @@ export default defineConfig({
 		secrets: "github",
 	},
 	agent: "claude",
-	skills: [
-		"git-safety",
-		"pr-workflow",
-		"commit-standards",
-		"security-review",
-		"holocron-skill-client",
-	],
+	skills: ["git-safety", "pr-workflow", "commit-standards", "security-review", "holocron-skill-client"],
 });

@@ -3,25 +3,25 @@ packages:
 
 # Shared dep versions for this repo.
 catalog:
-  '@commitlint/cli': ^21.0.0
-  '@eslint/js': ^10.0.0
+  '@commitlint/cli': ^21.2.1
+  '@eslint/js': ^10.8.0
   '@semantic-release/changelog': ^7.0.0
   '@semantic-release/exec': ^7.1.0
   '@semantic-release/git': ^11.0.1
   '@semantic-release/github': ^12.0.9
-  '@types/node': ^22.0.0
-  '@vitest/coverage-v8': ^4.0.0
+  '@types/node': ^26.1.2
+  '@vitest/coverage-v8': ^4.1.10
   conventional-changelog-conventionalcommits: ^10.2.1
-  eslint: ^10.0.0
-  globals: ^17.0.0
+  eslint: ^10.8.0
+  globals: ^17.8.0
   husky: ^9.1.7
   knip: ^6.29.0
   lint-staged: ^16.2.6
   prettier: ^3.6.2
   semantic-release: ^25.0.8
-  tsdown: ^0.12.0
-  typescript: ^5.8.3
-  vitest: ^4.0.0
+  tsdown: ^0.22.14
+  typescript: ^5.9.3
+  vitest: ^4.1.10
 
 # Shared configs — release in lockstep; bump all entries together.
 catalogs:

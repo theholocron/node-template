@@ -25,7 +25,7 @@ export default defineConfig({
 		{ name: "release", with: { "run-build": true } },
 		{
 			name: "deploy-docs",
-			with: { name: "node-template" },
+			with: { name: "node-template", "use-turbo": false },
 			paths: ["docs/**"],
 		},
 	],
@@ -33,6 +33,7 @@ export default defineConfig({
 		...providers,
 		secrets: "github",
 	},
+	docs: { build: "workflow", https: true },
 	agent: "claude",
 	skills: ["git-safety", "pr-workflow", "commit-standards", "security-review"],
 });

@@ -1,6 +1,6 @@
 {
   "name": "@theholocron/node-template-site",
-  "version": "0.0.0",
+  "version": "1.3.2",
   "description": "Docs site for node-template",
   "scripts": {
     "build": "astro build",

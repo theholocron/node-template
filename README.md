@@ -14,12 +14,11 @@ pnpm install --save-dev @theholocron/node-template
 
 ## Usage
 
-<!-- prettier-ignore -->
 ```typescript
 import { doSomething, type SomethingOptions } from "@theholocron/node-template";
 
 function App(options: SomethingOptions) {
-  return doSomething(options);
+	return doSomething(options);
 }
 ```
 

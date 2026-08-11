@@ -1,7 +1,5 @@
-# AUTO-GENERATED — do not edit directly.
+# Scaffolded by holocron setup — edit this file freely.
 # Source:  theholocron/holocron · packages/cli/src/commands/setup.ts
-# Tool:    holocron setup
-# Changes: run `holocron setup` to regenerate.
 
 codecov:
   require_ci_to_pass: true

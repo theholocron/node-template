@@ -18,7 +18,7 @@ pnpm install --save-dev @theholocron/node-template
 import { doSomething, type SomethingOptions } from "@theholocron/node-template";
 
 function App(options: SomethingOptions) {
-	return doSomething(options);
+  return doSomething(options);
 }
 ```
 

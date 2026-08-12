@@ -21,6 +21,6 @@ A modern Node.js library starter template for `@theholocron` repos.
 import { doSomething, type SomethingOptions } from "@theholocron/node-template";
 
 function App(options: SomethingOptions) {
-	return doSomething(options);
+  return doSomething(options);
 }
 ```

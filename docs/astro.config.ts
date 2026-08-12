@@ -4,7 +4,7 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
 	site: "https://docs.theholocron.dev",
-	base: "/node-template",
+	base: "/projects/node-template",
 	integrations: [
 		starlight({
 			title: "Node Template",

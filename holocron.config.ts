@@ -23,11 +23,7 @@ export default defineConfig({
 		...workflows,
 		"audit",
 		{ name: "release", with: { "run-build": true } },
-		{
-			name: "deploy-docs",
-			with: { name: "node-template", "use-turbo": false },
-			paths: ["docs/**"],
-		},
+		{ name: "deploy-docs", with: { name: "node-template" }, paths: ["docs/**"] },
 	],
 	providers: {
 		...providers,

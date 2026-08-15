@@ -11,6 +11,13 @@ const config = [
 			"n/no-unpublished-import": "off",
 		},
 	},
+	{
+		files: ["docs/src/**"],
+		rules: {
+			// docs/src imports live in root package.json, not docs/package.json
+			"n/no-extraneous-import": "off",
+		},
+	},
 	{ ignores: ["dist/**", "coverage/**"] },
 ] satisfies Linter.Config[];
 

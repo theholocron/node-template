@@ -23,6 +23,7 @@
     "dist"
   ],
   "scripts": {
+    "audit": "knip",
     "build": "tsdown",
     "lint": "eslint .",
     "prepare": "husky",
@@ -34,6 +35,7 @@
   "devDependencies": {
     "@astrojs/starlight": "catalog:",
     "@commitlint/cli": "catalog:",
+    "@commitlint/types": "catalog:",
     "@eslint/js": "catalog:",
     "@semantic-release/changelog": "catalog:",
     "@semantic-release/exec": "catalog:",

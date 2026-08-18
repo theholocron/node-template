@@ -11,7 +11,8 @@ export default defineConfig({
 		teams: [{ slug: "gatekeepers", permission: "maintain" }],
 		topics: ["nodejs", "template", "typescript", "library"],
 		...repo,
-		protection: "balanced",
+		protection: "strict",
+		requiredChecks: ["audit / Knip", "audit / Audit the bundle size", "codecov/patch", "codecov/project"],
 		properties: {
 			...repo.properties,
 			runtime_environment: "node",
@@ -21,7 +22,7 @@ export default defineConfig({
 	},
 	workflows: [
 		...workflows,
-		"audit",
+		{ name: "audit", with: { "run-knip": true } },
 		{ name: "release", with: { "run-build": true } },
 		{ name: "deploy", with: { type: "docs", name: "node-template" }, paths: ["docs/**"] },
 	],

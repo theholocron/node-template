@@ -22,7 +22,7 @@ export default defineConfig({
 	},
 	workflows: [
 		...workflows,
-		"audit",
+		{ name: "audit", with: { "run-knip": true } },
 		{ name: "release", with: { "run-build": true } },
 		{ name: "deploy", with: { type: "docs", name: "node-template" }, paths: ["docs/**"] },
 	],

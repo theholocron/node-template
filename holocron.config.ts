@@ -11,7 +11,7 @@ export default defineConfig({
 		teams: [{ slug: "gatekeepers", permission: "maintain" }],
 		topics: ["nodejs", "template", "typescript", "library"],
 		...repo,
-		protection: "balanced",
+		protection: "strict",
 		properties: {
 			...repo.properties,
 			runtime_environment: "node",

@@ -6,7 +6,13 @@ export default defineConfig({
 	docs: {
 		name: "Node Template",
 		github: "node-template",
-		sidebar: [{ label: "Overview", slug: "" }],
+		sidebar: [
+			{ label: "Overview", slug: "" },
+			{
+				label: "Guide",
+				items: [{ label: "Getting Started", slug: "getting-started" }],
+			},
+		],
 	},
 	starlight,
 	docsTheme,

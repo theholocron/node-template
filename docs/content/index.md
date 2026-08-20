@@ -1,26 +1,36 @@
 ---
-title: Overview
-description: A Node.js library starter template with pre-configured tools, best practices, and CI/CD setup for rapid project development.
+title: Node Template
+description: A modern Node.js library starter template with pre-configured tools, best practices, and CI/CD setup.
+sidebar:
+  hidden: true
 ---
 
-A modern Node.js library starter template for `@theholocron` repos.
+`@theholocron/node-template` is an opinionated starter for Node.js libraries. It ships with a full development, testing, and release pipeline ready to go.
 
-## What's included
+## What's Included
 
-- TypeScript with strict config via `@theholocron/tsconfig`
-- ESLint + Prettier via `@theholocron/eslint-config` and `@theholocron/prettier-config`
-- Vitest for testing with coverage via `@theholocron/vitest-config`
-- Semantic release via `@theholocron/semantic-release-config`
-- Husky + lint-staged via `@theholocron/lint-staged-config`
-- Full CI/CD via reusable workflows in `theholocron/.github`
-- Docs site via Astro + Starlight
+| Tool                                                    | Purpose                                                |
+| ------------------------------------------------------- | ------------------------------------------------------ |
+| [TypeScript](https://www.typescriptlang.org)            | Type safety via `@theholocron/tsconfig`                |
+| [ESLint](https://eslint.org)                            | Linting via `@theholocron/eslint-config`               |
+| [Prettier](https://prettier.io)                         | Formatting via `@theholocron/prettier-config`          |
+| [Vitest](https://vitest.dev)                            | Testing with coverage via `@theholocron/vitest-config` |
+| [semantic-release](https://semantic-release.gitbook.io) | Automated releases                                     |
+| [Husky](https://typicode.github.io/husky)               | Git hooks via `@theholocron/lint-staged-config`        |
+| Astro + Starlight                                       | Docs site                                              |
+| CI/CD                                                   | Reusable workflows from `theholocron/.github`          |
 
-## Usage
+## Getting Started
 
-```typescript
-import { doSomething, type SomethingOptions } from "@theholocron/node-template";
-
-function App(options: SomethingOptions) {
-  return doSomething(options);
-}
+```bash
+npx @theholocron/cli new node my-library \
+  --description "My library description" \
+  --homepage "https://my-library.example.com" \
+  --agent claude
 ```
+
+See [Getting Started](./getting-started) for the full walkthrough including manual setup and available scripts.
+
+## Quick links
+
+- [Getting started](./getting-started) — scaffold a new project with the Holocron CLI

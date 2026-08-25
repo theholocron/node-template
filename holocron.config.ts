@@ -24,6 +24,7 @@ export default defineConfig({
 		...workflows,
 		{ name: "audit", with: { "run-knip": true } },
 		{ name: "release", with: { "run-build": true } },
+		"sync",
 		{ name: "deploy", with: { type: "docs", name: "node-template" }, paths: ["docs/**"] },
 	],
 	providers: {

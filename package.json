@@ -5,15 +5,12 @@
   "keywords": [
     "nodejs",
     "template",
-    "theholocron",
-    "typescript"
+    "typescript",
+    "library"
   ],
   "homepage": "https://docs.theholocron.dev/node-template/",
   "bugs": "https://github.com/theholocron/node-template/issues",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/theholocron/node-template.git"
-  },
+  "repository": "theholocron/node-template",
   "license": "GPL-3.0",
   "author": "Newton Koumantzelis",
   "sideEffects": false,

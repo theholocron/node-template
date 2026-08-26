@@ -2,6 +2,12 @@
   "name": "@theholocron/node-template",
   "version": "1.5.2",
   "description": "A modern NodeJS template with pre-configured tools, best practices, and CI/CD setup for rapid project development.",
+  "keywords": [
+    "nodejs",
+    "template",
+    "theholocron",
+    "typescript"
+  ],
   "homepage": "https://docs.theholocron.dev/node-template/",
   "bugs": "https://github.com/theholocron/node-template/issues",
   "repository": {
@@ -10,15 +16,15 @@
   },
   "license": "GPL-3.0",
   "author": "Newton Koumantzelis",
+  "sideEffects": false,
   "type": "module",
   "exports": {
     ".": {
+      "types": "./dist/index.d.mts",
       "import": "./dist/index.mjs",
       "default": "./dist/index.mjs"
     }
   },
-  "main": "dist/index.mjs",
-  "types": "dist/index.d.mts",
   "files": [
     "dist"
   ],
@@ -79,16 +85,7 @@
     "node": ">=22.0.0"
   },
   "publishConfig": {
-    "access": "public",
-    "exports": {
-      ".": {
-        "types": "./dist/index.d.mts",
-        "import": "./dist/index.mjs",
-        "default": "./dist/index.mjs"
-      }
-    },
-    "main": "./dist/index.mjs",
-    "types": "./dist/index.d.mts"
+    "access": "public"
   },
   "pnpm": {
     "overrides": {

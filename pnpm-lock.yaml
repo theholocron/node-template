@@ -115,6 +115,9 @@ catalogs:
     typescript-eslint:
       specifier: ^8.65.0
       version: 8.67.0
+    vitest:
+      specifier: ^4.1.10
+      version: 4.1.11
   holocron:
     '@theholocron/cli':
       specifier: ^3.24.4
@@ -248,7 +251,7 @@ importers:
         specifier: 'catalog:'
         version: 8.67.0(eslint@10.9.1(jiti@2.7.0))(typescript@5.9.3)
       vitest:
-        specifier: 4.1.11
+        specifier: 'catalog:'
         version: 4.1.11(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(@vitest/coverage-v8@4.1.11)(vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))
 
   docs: {}

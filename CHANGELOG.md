@@ -2,20 +2,20 @@
 
 ### Bug Fixes
 
-* pin conventional-changelog-conventionalcommits to 9.3.1 ([#175](https://github.com/theholocron/node-template/issues/175)) ([6319119](https://github.com/theholocron/node-template/commit/6319119f86d317c7db43d9b5e87301da44492548))
+- pin conventional-changelog-conventionalcommits to 9.3.1 ([#175](https://github.com/theholocron/node-template/issues/175)) ([6319119](https://github.com/theholocron/node-template/commit/6319119f86d317c7db43d9b5e87301da44492548))
 
 ### Documentation
 
-* 📚️ add getting-started page, update index with table and CLI snippet, wire sidebar ([#168](https://github.com/theholocron/node-template/issues/168)) ([2f947c2](https://github.com/theholocron/node-template/commit/2f947c246b68d3a5faab66d22bbe4fa9bd6bae11))
+- 📚️ add getting-started page, update index with table and CLI snippet, wire sidebar ([#168](https://github.com/theholocron/node-template/issues/168)) ([2f947c2](https://github.com/theholocron/node-template/commit/2f947c246b68d3a5faab66d22bbe4fa9bd6bae11))
 
 ### Chores
 
-* 🔧 bump eslint-config to 7.22.3 and drop n/no-unpublished-import override ([#169](https://github.com/theholocron/node-template/issues/169)) ([55ea9e6](https://github.com/theholocron/node-template/commit/55ea9e654ac0cbee68da1045d457124cfeaf63ae))
-* add development and releases marker blocks to README ([#172](https://github.com/theholocron/node-template/issues/172)) ([9a66283](https://github.com/theholocron/node-template/commit/9a66283360d49618a326fc071ac16e6dec0773f0))
-* add sync workflow to holocron.config ([#171](https://github.com/theholocron/node-template/issues/171)) ([10ee27c](https://github.com/theholocron/node-template/commit/10ee27c9473a228d312846713a9de41e4bfa5da7))
-* sync from theholocron/holocron ([#170](https://github.com/theholocron/node-template/issues/170)) ([7e0850a](https://github.com/theholocron/node-template/commit/7e0850aec2d9588ee2cd2346aee36107b1560bc9))
-* sync from theholocron/holocron ([#173](https://github.com/theholocron/node-template/issues/173)) ([348428c](https://github.com/theholocron/node-template/commit/348428c960cd4a019d89aa262ce8b2fa57f22059))
-* sync from theholocron/holocron ([#174](https://github.com/theholocron/node-template/issues/174)) ([4605765](https://github.com/theholocron/node-template/commit/4605765d0fe053965cf45494e99d935713174b2b))
+- 🔧 bump eslint-config to 7.22.3 and drop n/no-unpublished-import override ([#169](https://github.com/theholocron/node-template/issues/169)) ([55ea9e6](https://github.com/theholocron/node-template/commit/55ea9e654ac0cbee68da1045d457124cfeaf63ae))
+- add development and releases marker blocks to README ([#172](https://github.com/theholocron/node-template/issues/172)) ([9a66283](https://github.com/theholocron/node-template/commit/9a66283360d49618a326fc071ac16e6dec0773f0))
+- add sync workflow to holocron.config ([#171](https://github.com/theholocron/node-template/issues/171)) ([10ee27c](https://github.com/theholocron/node-template/commit/10ee27c9473a228d312846713a9de41e4bfa5da7))
+- sync from theholocron/holocron ([#170](https://github.com/theholocron/node-template/issues/170)) ([7e0850a](https://github.com/theholocron/node-template/commit/7e0850aec2d9588ee2cd2346aee36107b1560bc9))
+- sync from theholocron/holocron ([#173](https://github.com/theholocron/node-template/issues/173)) ([348428c](https://github.com/theholocron/node-template/commit/348428c960cd4a019d89aa262ce8b2fa57f22059))
+- sync from theholocron/holocron ([#174](https://github.com/theholocron/node-template/issues/174)) ([4605765](https://github.com/theholocron/node-template/commit/4605765d0fe053965cf45494e99d935713174b2b))
 
 ## [1.5.2](https://github.com/theholocron/node-template/compare/v1.5.1...v1.5.2) (2026-08-20)
 

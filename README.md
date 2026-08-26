@@ -1,7 +1,9 @@
 # `@theholocron/node-template`
 
 <!-- holocron:description -->
+
 A modern NodeJS template with pre-configured tools, best practices, and CI/CD setup for rapid project development.
+
 <!-- /holocron:description -->
 
 <!-- holocron:template-only -->

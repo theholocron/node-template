@@ -1,3 +1,14 @@
+## [1.6.0](https://github.com/theholocron/node-template/compare/v1.5.3...v1.6.0) (2026-09-02)
+
+### Features
+
+* ✨ add wiki/fern docs setup ([#180](https://github.com/theholocron/node-template/issues/180)) ([0e6a847](https://github.com/theholocron/node-template/commit/0e6a847aa12ead3d6ca3298a4cf6465e19531d74))
+
+### Chores
+
+* 🔧 ⬆️ adopt nodeDocs() preset from @theholocron/holocron-config@7.26.0 ([#178](https://github.com/theholocron/node-template/issues/178)) ([4ffc941](https://github.com/theholocron/node-template/commit/4ffc941a73cca4259383d73c1b8a2bf2ec6f3b1c))
+* sync README and repo metadata ([#177](https://github.com/theholocron/node-template/issues/177)) ([a304c3b](https://github.com/theholocron/node-template/commit/a304c3baee2544c48804b4de925d896c47aaa09d))
+
 ## [1.5.3](https://github.com/theholocron/node-template/compare/v1.5.2...v1.5.3) (2026-08-26)
 
 ### Bug Fixes

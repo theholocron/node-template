@@ -27,7 +27,11 @@ export default defineConfig({
 		"sync",
 		{ name: "deploy", with: { type: "docs", name: "node-template" }, paths: ["docs/**"] },
 	],
-	providers: { ...providers, secrets: "github" },
+	providers: {
+		...providers,
+		secrets: "github",
+		wiki: ["fern", { domain: "wiki.theholocron.dev", fernOrg: "holocron", icon: "fa-duotone fa-copy" }],
+	},
 	agent: "claude",
 	skills: ["git-safety", "pr-workflow", "commit-standards", "security-review"],
 });

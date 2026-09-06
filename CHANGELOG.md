@@ -2,12 +2,12 @@
 
 ### Features
 
-* ✨ add wiki navbar links ([#185](https://github.com/theholocron/node-template/issues/185)) ([c569469](https://github.com/theholocron/node-template/commit/c569469c89754f8ddd5815a6235522f9f915e3be))
+- ✨ add wiki navbar links ([#185](https://github.com/theholocron/node-template/issues/185)) ([c569469](https://github.com/theholocron/node-template/commit/c569469c89754f8ddd5815a6235522f9f915e3be))
 
 ### Chores
 
-* ✨ add wiki icon and bump Fern to 5.114.1 ([#182](https://github.com/theholocron/node-template/issues/182)) ([cf5cf5a](https://github.com/theholocron/node-template/commit/cf5cf5ae673da49167b33201c73dc9ca19e8e186))
-* 🗑️ remove orphaned workflow files ([#181](https://github.com/theholocron/node-template/issues/181)) ([998af63](https://github.com/theholocron/node-template/commit/998af63a234e26c6b6af983e8f6aa6af1f544409))
+- ✨ add wiki icon and bump Fern to 5.114.1 ([#182](https://github.com/theholocron/node-template/issues/182)) ([cf5cf5a](https://github.com/theholocron/node-template/commit/cf5cf5ae673da49167b33201c73dc9ca19e8e186))
+- 🗑️ remove orphaned workflow files ([#181](https://github.com/theholocron/node-template/issues/181)) ([998af63](https://github.com/theholocron/node-template/commit/998af63a234e26c6b6af983e8f6aa6af1f544409))
 
 ## [1.6.0](https://github.com/theholocron/node-template/compare/v1.5.3...v1.6.0) (2026-09-02)
 

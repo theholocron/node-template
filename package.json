@@ -1,6 +1,6 @@
 {
   "name": "@theholocron/node-template",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "A modern NodeJS template with pre-configured tools, best practices, and CI/CD setup for rapid project development.",
   "keywords": [
     "nodejs",

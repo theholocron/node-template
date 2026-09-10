@@ -2,8 +2,8 @@
 
 ### Chores
 
-* 🔧 ⬆️ migrate to @theholocron/cli 4.16.2 + holocron-config 8.x ([#187](https://github.com/theholocron/node-template/issues/187)) ([ffb10fe](https://github.com/theholocron/node-template/commit/ffb10fe12a1f302779960bdd72ad0f1b7c952943)), closes [#647](https://github.com/theholocron/node-template/issues/647)
-* **deps:** bump @theholocron/holocron-config from 7.26.0 to 7.30.0 in the all-dependencies group ([#183](https://github.com/theholocron/node-template/issues/183)) ([07bb762](https://github.com/theholocron/node-template/commit/07bb7627a65367c3af0ea0a885e4b85b3c851d6c))
+- 🔧 ⬆️ migrate to @theholocron/cli 4.16.2 + holocron-config 8.x ([#187](https://github.com/theholocron/node-template/issues/187)) ([ffb10fe](https://github.com/theholocron/node-template/commit/ffb10fe12a1f302779960bdd72ad0f1b7c952943)), closes [#647](https://github.com/theholocron/node-template/issues/647)
+- **deps:** bump @theholocron/holocron-config from 7.26.0 to 7.30.0 in the all-dependencies group ([#183](https://github.com/theholocron/node-template/issues/183)) ([07bb762](https://github.com/theholocron/node-template/commit/07bb7627a65367c3af0ea0a885e4b85b3c851d6c))
 
 ## [1.7.0](https://github.com/theholocron/node-template/compare/v1.6.0...v1.7.0) (2026-09-06)
 

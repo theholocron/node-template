@@ -1,3 +1,13 @@
+## [1.7.2](https://github.com/theholocron/node-template/compare/v1.7.1...v1.7.2) (2026-09-11)
+
+### Bug Fixes
+
+* **hooks:** 🐛 scope pre-commit GitLeaks scan to staged changes ([#191](https://github.com/theholocron/node-template/issues/191)) ([3978022](https://github.com/theholocron/node-template/commit/3978022128d9e38960510f10d1a7e58bacec4b8a))
+
+### Chores
+
+* 🔧 holocron setup — ruleset + workflow/config sync ([#189](https://github.com/theholocron/node-template/issues/189)) ([eb93e94](https://github.com/theholocron/node-template/commit/eb93e94af94b193934bd73ae3a881092f4a30b61)), closes [#647](https://github.com/theholocron/node-template/issues/647) [#649](https://github.com/theholocron/node-template/issues/649) [#649](https://github.com/theholocron/node-template/issues/649) [#647](https://github.com/theholocron/node-template/issues/647)
+
 ## [1.7.1](https://github.com/theholocron/node-template/compare/v1.7.0...v1.7.1) (2026-09-10)
 
 ### Chores

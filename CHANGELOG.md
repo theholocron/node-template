@@ -1,3 +1,9 @@
+## [1.7.3](https://github.com/theholocron/node-template/compare/v1.7.2...v1.7.3) (2026-09-12)
+
+### Bug Fixes
+
+* 🐛 rename yamllint.config.yml to .yamllint.yml for auto-detection ([#192](https://github.com/theholocron/node-template/issues/192)) ([4618149](https://github.com/theholocron/node-template/commit/46181499f31ef8f93648f3d9a49a61ca5dab681a))
+
 ## [1.7.2](https://github.com/theholocron/node-template/compare/v1.7.1...v1.7.2) (2026-09-11)
 
 ### Bug Fixes

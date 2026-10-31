@@ -1,3 +1,11 @@
+## [1.7.4](https://github.com/theholocron/node-template/compare/v1.7.3...v1.7.4) (2026-10-31)
+
+### Chores
+
+* 🔧 sync from holocron.config ([#190](https://github.com/theholocron/node-template/issues/190)) ([bed8d23](https://github.com/theholocron/node-template/commit/bed8d23534ee5d77c8ac2917bba85084639d00ed))
+* **deps:** bump the all-dependencies group across 1 directory with 2 updates ([#196](https://github.com/theholocron/node-template/issues/196)) ([d125a6f](https://github.com/theholocron/node-template/commit/d125a6fe1f1db5dee121f9b1e98ef3f5c17dfa3d))
+* **license:** 📜 relicense to MIT ([#197](https://github.com/theholocron/node-template/issues/197)) ([ba0a75e](https://github.com/theholocron/node-template/commit/ba0a75e9e4f2e72e0f154de75fb1846caa010cc1))
+
 ## [1.7.3](https://github.com/theholocron/node-template/compare/v1.7.2...v1.7.3) (2026-09-12)
 
 ### Bug Fixes

@@ -11,7 +11,7 @@
   "homepage": "https://docs.theholocron.dev/node-template/",
   "bugs": "https://github.com/theholocron/node-template/issues",
   "repository": "theholocron/node-template",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "author": "Newton Koumantzelis",
   "sideEffects": false,
   "type": "module",
